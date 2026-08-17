@@ -24,6 +24,13 @@ psdcuts_default:
     high_side: 3
 
 aoemeanmod_default:
-  expression: Constant
-  parameters:
-    value: 0.0
+  single_template:
+    expression: a * x + b
+    pars:
+      a: 0
+      b: 1
+  psl:
+    expression: a * x + b
+    pars:
+      a: 0
+      b: 1
