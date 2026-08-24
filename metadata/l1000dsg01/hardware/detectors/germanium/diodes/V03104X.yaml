@@ -3,7 +3,7 @@ type: icpc
 production:
   manufacturer: DavidHervas
   order: 1
-  crystal: '1'
+  crystal: "1"
   slice: X
   enrichment:
     val: 0.9
@@ -11,7 +11,7 @@ production:
   passivation: true
   reprocessing: false
   mass_in_g: 3045
-  delivered: '2026-02-12'
+  delivered: "2026-02-12"
 geometry:
   height_in_mm: 90
   radius_in_mm: 44.4
